@@ -99,7 +99,7 @@ p {
 }
 .movie-cover {
     background-image: url(../img/header-img.png);
-    background-size: contain    ;
+    background-size: cover;
     position: absolute;
     top: 0px;
     height: 100%;
