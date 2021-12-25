@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filimo - Movie Page</title>
+    <!-- Main Template Css File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Owl Stylesheets -->
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <!-- Animate Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+  <div class="mobile-nav animate__slideInLeft" id="mobile-nav">
+    <a class="close-mn" onclick="removeClassOpenNav()">  
+      <svg xmlns="http://www.w3.org/2000/svg" class="svg-close" stroke-width="2" viewBox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
+  </a>
+  <div class="logo-acc">
+
+  </div>
+  </div>
+  <div class="overlay-mn" id="overlay-mn"></div>
+    <header class="header">
+      <div class="movie-cover"></div>
+      <div class="movie-cover2"></div>
+      <div class="mbg"></div>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+              <a href="#">
+                  <img src="img/Logo.png" alt="Logo">
+              </a>
+          </div>
+          <div class="menu-nav">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Movie & Series</a></li>
+                  <li><a href="#">Live</a></li>
+                  <li><a href="#">Popular</a></li>
+                  <li><a href="#">My List</a></li>
+              </ul>
+              
+          </div>
+          <div class="s-acc">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21.588" height="21.588" viewBox="0 0 21.588 21.588">
+                  <path id="Path_61" data-name="Path 61" d="M9.736,0a9.731,9.731,0,0,1,8.24,14.916l2.979,2.979a2.163,2.163,0,0,1-3.06,3.06l-2.979-2.979A9.734,9.734,0,1,1,9.736,0Zm0,17.308A7.572,7.572,0,1,0,2.163,9.736,7.581,7.581,0,0,0,9.736,17.308Z" transform="translate(0)" fill="#fff"/>
+                </svg>
+                <svg class="open-nav" onclick="addClassOpenNav()" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z">
+                  </path>
+                </svg>
+                <div class="your-acc">
+                <img src="img/itachi.jpg" width="40"/>
+              </div>
+          </div>
+        </nav>
+      <div class="movie">
+        <div class="content">
+          <div class="movie-img">
+              <img src="img/Breaking Bad.png"/>
+          </div>
+          <div class="movie-details">
+              <h1>Breaking Bad: S3 E6</h1>
+              <p class="category">Series</p>
+              <div class="rating">
+                  <div class="filimo-rating">
+                      <span>9.4</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87.931" height="15.574" viewBox="0 0 87.931 15.574">
+                          <defs>
+                            <clipPath id="clip-path">
+                              <rect width="71.106" height="15.542" fill="none"/>
+                            </clipPath>
+                          </defs>
+                          <g id="Group_359" data-name="Group 359" transform="translate(-46.069 -13.272)">
+                            <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(46.069 13.272)" clip-path="url(#clip-path)">
+                              <g transform="translate(-1593 -541)">
+                                <path id="star_1_" data-name="star (1)" d="M8.792,1.528,10.6,5.193a.863.863,0,0,0,.65.472l4.044.588a.863.863,0,0,1,.479,1.473l-2.926,2.852a.864.864,0,0,0-.248.764l.691,4.028a.864.864,0,0,1-1.253.91l-3.617-1.9a.864.864,0,0,0-.8,0L4,16.28a.864.864,0,0,1-1.253-.91l.691-4.028a.864.864,0,0,0-.248-.764L.262,7.725A.863.863,0,0,1,.741,6.253l4.044-.588a.863.863,0,0,0,.65-.472L7.244,1.528A.863.863,0,0,1,8.792,1.528Z" transform="translate(1593 539.953)" fill="var(--mainColor)"/>
+                              </g>
+                              <g transform="translate(-1575 -541)">
+                                <path id="star_1_2" data-name="star (1)" d="M8.792,1.528,10.6,5.193a.863.863,0,0,0,.65.472l4.044.588a.863.863,0,0,1,.479,1.473l-2.926,2.852a.864.864,0,0,0-.248.764l.691,4.028a.864.864,0,0,1-1.253.91l-3.617-1.9a.864.864,0,0,0-.8,0L4,16.28a.864.864,0,0,1-1.253-.91l.691-4.028a.864.864,0,0,0-.248-.764L.262,7.725A.863.863,0,0,1,.741,6.253l4.044-.588a.863.863,0,0,0,.65-.472L7.244,1.528A.863.863,0,0,1,8.792,1.528Z" transform="translate(1593 539.953)" fill="var(--mainColor)"/>
+                              </g>
+                              <g transform="translate(-1557 -541)">
+                                <path id="star_1_3" data-name="star (1)" d="M8.792,1.528,10.6,5.193a.863.863,0,0,0,.65.472l4.044.588a.863.863,0,0,1,.479,1.473l-2.926,2.852a.864.864,0,0,0-.248.764l.691,4.028a.864.864,0,0,1-1.253.91l-3.617-1.9a.864.864,0,0,0-.8,0L4,16.28a.864.864,0,0,1-1.253-.91l.691-4.028a.864.864,0,0,0-.248-.764L.262,7.725A.863.863,0,0,1,.741,6.253l4.044-.588a.863.863,0,0,0,.65-.472L7.244,1.528A.863.863,0,0,1,8.792,1.528Z" transform="translate(1593 539.953)" fill="var(--mainColor)"/>
+                              </g>
+                              <g transform="translate(-1539 -541)">
+                                <path id="star_1_4" data-name="star (1)" d="M8.792,1.528,10.6,5.193a.863.863,0,0,0,.65.472l4.044.588a.863.863,0,0,1,.479,1.473l-2.926,2.852a.864.864,0,0,0-.248.764l.691,4.028a.864.864,0,0,1-1.253.91l-3.617-1.9a.864.864,0,0,0-.8,0L4,16.28a.864.864,0,0,1-1.253-.91l.691-4.028a.864.864,0,0,0-.248-.764L.262,7.725A.863.863,0,0,1,.741,6.253l4.044-.588a.863.863,0,0,0,.65-.472L7.244,1.528A.863.863,0,0,1,8.792,1.528Z" transform="translate(1593 539.953)" fill="var(--mainColor)"/>
+                              </g>
+                            </g>
+                            <g id="Group_39" data-name="Group 39" transform="translate(117.745 13.272)">
+                              <path id="star_2_" data-name="star (2)" d="M15.9,8.105a1.166,1.166,0,0,0-.646-1.988L11.32,5.545a.514.514,0,0,1-.387-.282L9.173,1.7a1.166,1.166,0,0,0-2.091,0L5.323,5.263a.515.515,0,0,1-.388.282L1,6.117A1.166,1.166,0,0,0,.353,8.105L3.2,10.881a.515.515,0,0,1,.148.456l-.672,3.92a1.166,1.166,0,0,0,1.691,1.229l3.52-1.851a.515.515,0,0,1,.479,0l3.52,1.851a1.166,1.166,0,0,0,1.691-1.229l-.672-3.92a.515.515,0,0,1,.148-.456Zm-3.637,3.342.672,3.92a.515.515,0,0,1-.747.543l-3.52-1.851a1.166,1.166,0,0,0-1.085,0L4.066,15.91a.515.515,0,0,1-.747-.543l.672-3.92a1.166,1.166,0,0,0-.335-1.032L.807,7.639a.515.515,0,0,1,.285-.878l3.936-.572a1.164,1.164,0,0,0,.878-.638l1.76-3.567a.515.515,0,0,1,.923,0l1.76,3.567a1.164,1.164,0,0,0,.878.638l3.936.572a.515.515,0,0,1,.285.878L12.6,10.415A1.165,1.165,0,0,0,12.265,11.447Z" transform="translate(0 -1.047)" fill="var(--mainColor)"/>
+                              <path id="Path_17" data-name="Path 17" d="M7631.77,559.1v8.7l-3.833,1.562.31-5.449-3.28-3.1.243-1.154Z" transform="translate(-7624.676 -554.272)" fill="var(--mainColor)" stroke="var(--mainColor)" stroke-width="0.2"/>
+                              <path id="Path_18" data-name="Path 18" d="M7631.875,559.016v-2.969l-2.156,3.406Z" transform="translate(-7624.676 -554.272)" fill="var(--mainColor)"/>
+                              <path id="Path_19" data-name="Path 19" d="M7635.923,559.1v9.85l-3.116-1.584-1.637.634.264-11.724.845-1.637,1.109.106,2.007,4.119Z" transform="translate(-7624.676 -554.272)" fill="var(--mainColor)"/>
+                            </g>
+                          </g>
+                        </svg>                          
+                    </div>
+                  <div class="imdb-rating">
+                      9.5/10
+                      <img src="img/imdb.png" alt="">
+                  </div>
+              </div>
+              <div class="movie-time">43 Minutes - USA</div>
+              <div class="movie-genre">
+                  <a href="#">Action</a>
+                  <a href="#">Crime</a>
+                  <a href="#">Drama</a>
+                  <a href="#">Fantasy</a>
+                  <a href="#">Thriller</a>
+              </div>
+              <p class="movie-description">
+                A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing<br/> 
+                and selling methamphetamine in order to secure his family's future.
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="movie-btns">
+        <div class="btns">
+          <a href="#">
+            Play 
+            <svg xmlns="http://www.w3.org/2000/svg" width="12.028" height="13.365" viewBox="0 0 12.028 13.365">
+            <path id="play_1_" data-name="play (1)" d="M27.688,6.1,17,.086a.668.668,0,0,0-1,.583V12.7a.669.669,0,0,0,1,.583L27.688,7.265a.669.669,0,0,0,0-1.165Z" transform="translate(-16 0)" fill="#fff"/>
+          </svg>
+          </a>
+          <span class="br"></span>
+          <a href="#">
+            Add to Wishlist 
+            <svg id="bookmark-outline" xmlns="http://www.w3.org/2000/svg" width="16.333" height="21" viewBox="0 0 16.333 21">
+              <path id="Path_446" data-name="Path 446" d="M53.333,0H65a2.34,2.34,0,0,1,2.333,2.333V21l-8.167-3.5L51,21V2.333A2.34,2.34,0,0,1,53.333,0Zm0,17.5,5.833-2.567L65,17.5V2.333H53.333Z" transform="translate(-51)" fill="#fff"/>
+            </svg>                  
+          </a>
+          <a href="#">
+            Download 
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.122" height="18.925" viewBox="0 0 20.122 18.925">
+              <g id="download_1_" data-name="download (1)" transform="translate(0.25 0.26)">
+                <path id="Path_444" data-name="Path 444" d="M3.773,4.94a6.138,6.138,0,0,1,12.039,0,4.3,4.3,0,0,1-.495,8.565H12.248a.614.614,0,0,1,0-1.228h3.069a3.069,3.069,0,1,0-.036-6.138.614.614,0,0,1-.61-.546,4.911,4.911,0,0,0-9.756,0,.651.651,0,0,1-.646.546,3.069,3.069,0,1,0,0,6.138H7.338a.614.614,0,0,1,0,1.228H4.269a4.3,4.3,0,0,1-.5-8.562Zm0,0" transform="translate(0.001 0)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+                <path id="Path_445" data-name="Path 445" d="M173.279,214.955l1.556,1.557v-7.725a.614.614,0,1,1,1.228,0v7.725l1.556-1.557a.614.614,0,1,1,.883.853l-.015.015-2.6,2.6a.616.616,0,0,1-.2.133.606.606,0,0,1-.473,0,.613.613,0,0,1-.2-.133l-2.6-2.6a.614.614,0,0,1,.853-.883Zm0,0" transform="translate(-165.654 -200.196)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+              </g>
+            </svg>                  
+          </a>
+        </div>
+        <div class="your-rate">
+          Your rate
+          <svg xmlns="http://www.w3.org/2000/svg" width="92.577" height="15.89" viewBox="0 0 92.577 15.89">
+            <g id="Group_358" data-name="Group 358" transform="translate(0.161 0.15)">
+              <path id="star_2_" data-name="star (2)" d="M.353,8.105A1.166,1.166,0,0,1,1,6.117l3.936-.572a.514.514,0,0,0,.387-.282L7.082,1.7a1.166,1.166,0,0,1,2.091,0l1.76,3.567a.515.515,0,0,0,.388.282l3.936.572A1.166,1.166,0,0,1,15.9,8.105l-2.848,2.776a.515.515,0,0,0-.148.456l.672,3.92a1.166,1.166,0,0,1-1.691,1.229l-3.52-1.851a.515.515,0,0,0-.479,0l-3.52,1.851a1.166,1.166,0,0,1-1.691-1.229l.672-3.92a.515.515,0,0,0-.148-.456ZM3.99,11.447l-.672,3.92a.515.515,0,0,0,.747.543l3.52-1.851a1.166,1.166,0,0,1,1.085,0l3.52,1.851a.515.515,0,0,0,.747-.543l-.672-3.92a1.166,1.166,0,0,1,.335-1.032l2.848-2.776a.515.515,0,0,0-.285-.878l-3.936-.572a1.164,1.164,0,0,1-.878-.638L8.59,1.985a.515.515,0,0,0-.923,0L5.906,5.551a1.164,1.164,0,0,1-.878.638l-3.936.572a.515.515,0,0,0-.285.878l2.848,2.776A1.165,1.165,0,0,1,3.99,11.447Z" transform="translate(76 -1.047)" fill="var(--mainColor)" stroke="var(--mainColor)" stroke-width="0.3"/>
+              <path id="star_2_2" data-name="star (2)" d="M.353,8.105A1.166,1.166,0,0,1,1,6.117l3.936-.572a.514.514,0,0,0,.387-.282L7.082,1.7a1.166,1.166,0,0,1,2.091,0l1.76,3.567a.515.515,0,0,0,.388.282l3.936.572A1.166,1.166,0,0,1,15.9,8.105l-2.848,2.776a.515.515,0,0,0-.148.456l.672,3.92a1.166,1.166,0,0,1-1.691,1.229l-3.52-1.851a.515.515,0,0,0-.479,0l-3.52,1.851a1.166,1.166,0,0,1-1.691-1.229l.672-3.92a.515.515,0,0,0-.148-.456ZM3.99,11.447l-.672,3.92a.515.515,0,0,0,.747.543l3.52-1.851a1.166,1.166,0,0,1,1.085,0l3.52,1.851a.515.515,0,0,0,.747-.543l-.672-3.92a1.166,1.166,0,0,1,.335-1.032l2.848-2.776a.515.515,0,0,0-.285-.878l-3.936-.572a1.164,1.164,0,0,1-.878-.638L8.59,1.985a.515.515,0,0,0-.923,0L5.906,5.551a1.164,1.164,0,0,1-.878.638l-3.936.572a.515.515,0,0,0-.285.878l2.848,2.776A1.165,1.165,0,0,1,3.99,11.447Z" transform="translate(57 -1.047)" fill="var(--mainColor)" stroke="var(--mainColor)" stroke-width="0.3"/>
+              <path id="star_2_3" data-name="star (2)" d="M.353,8.105A1.166,1.166,0,0,1,1,6.117l3.936-.572a.514.514,0,0,0,.387-.282L7.082,1.7a1.166,1.166,0,0,1,2.091,0l1.76,3.567a.515.515,0,0,0,.388.282l3.936.572A1.166,1.166,0,0,1,15.9,8.105l-2.848,2.776a.515.515,0,0,0-.148.456l.672,3.92a1.166,1.166,0,0,1-1.691,1.229l-3.52-1.851a.515.515,0,0,0-.479,0l-3.52,1.851a1.166,1.166,0,0,1-1.691-1.229l.672-3.92a.515.515,0,0,0-.148-.456ZM3.99,11.447l-.672,3.92a.515.515,0,0,0,.747.543l3.52-1.851a1.166,1.166,0,0,1,1.085,0l3.52,1.851a.515.515,0,0,0,.747-.543l-.672-3.92a1.166,1.166,0,0,1,.335-1.032l2.848-2.776a.515.515,0,0,0-.285-.878l-3.936-.572a1.164,1.164,0,0,1-.878-.638L8.59,1.985a.515.515,0,0,0-.923,0L5.906,5.551a1.164,1.164,0,0,1-.878.638l-3.936.572a.515.515,0,0,0-.285.878l2.848,2.776A1.165,1.165,0,0,1,3.99,11.447Z" transform="translate(38 -1.047)" fill="var(--mainColor)" stroke="var(--mainColor)" stroke-width="0.3"/>
+              <path id="star_2_4" data-name="star (2)" d="M.353,8.105A1.166,1.166,0,0,1,1,6.117l3.936-.572a.514.514,0,0,0,.387-.282L7.082,1.7a1.166,1.166,0,0,1,2.091,0l1.76,3.567a.515.515,0,0,0,.388.282l3.936.572A1.166,1.166,0,0,1,15.9,8.105l-2.848,2.776a.515.515,0,0,0-.148.456l.672,3.92a1.166,1.166,0,0,1-1.691,1.229l-3.52-1.851a.515.515,0,0,0-.479,0l-3.52,1.851a1.166,1.166,0,0,1-1.691-1.229l.672-3.92a.515.515,0,0,0-.148-.456ZM3.99,11.447l-.672,3.92a.515.515,0,0,0,.747.543l3.52-1.851a1.166,1.166,0,0,1,1.085,0l3.52,1.851a.515.515,0,0,0,.747-.543l-.672-3.92a1.166,1.166,0,0,1,.335-1.032l2.848-2.776a.515.515,0,0,0-.285-.878l-3.936-.572a1.164,1.164,0,0,1-.878-.638L8.59,1.985a.515.515,0,0,0-.923,0L5.906,5.551a1.164,1.164,0,0,1-.878.638l-3.936.572a.515.515,0,0,0-.285.878l2.848,2.776A1.165,1.165,0,0,1,3.99,11.447Z" transform="translate(19 -1.047)" fill="var(--mainColor)" stroke="var(--mainColor)" stroke-width="0.3"/>
+              <path id="star_2_5" data-name="star (2)" d="M.353,8.105A1.166,1.166,0,0,1,1,6.117l3.936-.572a.514.514,0,0,0,.387-.282L7.082,1.7a1.166,1.166,0,0,1,2.091,0l1.76,3.567a.515.515,0,0,0,.388.282l3.936.572A1.166,1.166,0,0,1,15.9,8.105l-2.848,2.776a.515.515,0,0,0-.148.456l.672,3.92a1.166,1.166,0,0,1-1.691,1.229l-3.52-1.851a.515.515,0,0,0-.479,0l-3.52,1.851a1.166,1.166,0,0,1-1.691-1.229l.672-3.92a.515.515,0,0,0-.148-.456ZM3.99,11.447l-.672,3.92a.515.515,0,0,0,.747.543l3.52-1.851a1.166,1.166,0,0,1,1.085,0l3.52,1.851a.515.515,0,0,0,.747-.543l-.672-3.92a1.166,1.166,0,0,1,.335-1.032l2.848-2.776a.515.515,0,0,0-.285-.878l-3.936-.572a1.164,1.164,0,0,1-.878-.638L8.59,1.985a.515.515,0,0,0-.923,0L5.906,5.551a1.164,1.164,0,0,1-.878.638l-3.936.572a.515.515,0,0,0-.285.878l2.848,2.776A1.165,1.165,0,0,1,3.99,11.447Z" transform="translate(0 -1.047)" fill="var(--mainColor)" stroke="var(--mainColor)" stroke-width="0.3"/>
+            </g>
+          </svg>                
+        </div>
+    </div>
+      </div>
+    </header>
+    <div class="movie-page">
+      <div class="container">
+        <div class="about" data-aos="fade-up">
+          <div class="title">
+            <h1>About</h1>
+          </div>
+          <div class="content">
+            <div class="about-img">
+              <img src="img/about-img.png" alt="">
+            </div>
+            <div class="about-text">
+              <span>Summery : <p>A high school chemistry teacher diagnosed with inoperable lung cancer turns to<br> 
+                manufacturing and selling methamphetamine in order to secure his family's future.</p></span>
+                <span>Creator :  <p>Vince Gilligan</p></span>
+                  <span>Casts : <p>Bryan Cranston ,  Anna Gunn ,  Aaron Paul ,  Dean Norris ,  Betsy Brandt ,  RJ Mitte, <br> Bob Odenkirk ,  Giancarlo Esposito , Jonathan Banks ,  Laura Fraser , Jesse Plemons</p></span>
+            </div>
+          </div>
+        </div>
+        <div class="episodes" data-aos="fade-up">
+          <div class="title">
+            <h1 >Episodes</h1>
+            <div class="seasons-num">
+              <div class="box">1</div>
+              <span>Seasons</span>
+            </div>
+          </div>
+          <div class="content owl-carousel">
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/season_1_poster.png" alt=""></a>
+              </div>
+              <div class="item-text">
+                <a href="#"><h1>Episode 1</h1></a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/season_2_poster.png" alt=""></a>
+              </div>
+              <div class="item-text">
+                <a href="#"><h1>Episode 2</h1></a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/season_3_poster.png" alt=""></a>
+              </div>
+              <div class="item-text">
+                <a href="#"><h1>Episode 3</h1></a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/season_4_poster.png" alt=""></a>
+              </div>
+              <div class="item-text">
+                <a href="#"><h1>Episode 4</h1></a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/season_5_poster.png" alt=""></a>
+              </div>
+              <div class="item-text">
+                <a href="#"><h1>Episode 5</h1></a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/season_1_poster.png" alt=""></a>
+              </div>
+              <div class="item-text">
+                <a href="#"><h1>Episode 5</h1></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more-like" data-aos="fade-up">
+          <div class="title">
+            <h1>More Like</h1>
+          </div>
+          <div class="content owl-carousel">
+            <div class="item">
+              <div class="item-img">
+              <a href="#"><img src="img/elcamino.png" alt=""></a>
+            </div>
+            <div class="item-text">
+              <a href="#"><h1>El Camino</h1></a>
+              <p>TV-MA |  Action, Crime</p>
+            </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+              <img src="img/bcs.png" alt="">
+            </div>
+            <div class="item-text">
+              <h1>Better Call Saul</h1>
+              <p>TV-MA |  Crime, Drama</p>
+            </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/tpyl.png" alt=""></a>
+            </div>
+            <div class="item-text">
+              <a href="#"><h1>The Parts You Lose</h1></a>
+              <p>Movie | Drama, Thriller</p>
+            </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/nfs.png" alt=""></a>
+            </div>
+            <div class="item-text">
+              <a href="#"><h1>Need For Speed</h1></a>
+              <p>Movie |  Action, Crime</p>
+            </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/lc.png" alt=""></a>
+            </div>
+            <div class="item-text">
+              <a href="#"><h1>Last Christmas</h1></a>
+              <p>Movie | Comedy, Drama</p>
+            </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <a href="#"><img src="img/nfs.png" alt=""></a>
+            </div>
+            <div class="item-text">
+              <a href="#"><h1>Need For Speed</h1></a>
+              <p>Movie |  Action, Crime</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="comments" data-aos="zoom-in">
+          <div class="title">
+            <h1>Comments</h1>
+          </div>
+          <div class="content">
+            <div class="write-comment">
+              <div class="comment-box">
+              <input id="write-comment" type="text" placeholder="Write your review here...">
+              <div class="add-emoji">
+                <a href="#">&#128533;</a>
+                <a href="#">&#128525;</a>
+                <a href="#">&#128530;</a>
+                <a href="#">&#128536;</a>
+                <a href="#">&#128514;</a>
+                <a href="#">&#128521;</a>
+                <a href="#">&#128513;</a>
+              </div>
+              </div>
+              <button class="send-yc">Submit</button>
+            </div>
+            <div class="comments-list">
+              <div class="item">
+                <div class="user-details">
+                  <img src="img/itachi.jpg" alt="">
+                  <span class="user-name">Uchiha itachi</span>
+                  <p class="comment-user">When you finish the show you'll never be the same..I guarantee you</p>
+                </div>
+                <div class="rating-date">
+                  <span class="user-rating">10/10</span>
+                  <span class="date">12 Dec 2021</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="user-details">
+                  <img src="img/itachi.jpg" alt="">
+                  <span class="user-name">Uchiha itachi</span>
+                  <p class="comment-user">When you finish the show you'll never be the same..I guarantee you</p>
+                </div>
+                <div class="rating-date">
+                  <span class="user-rating">10/10</span>
+                  <span class="date">12 Dec 2021</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="user-details">
+                  <img src="img/itachi.jpg" alt="">
+                  <span class="user-name">Uchiha itachi</span>
+                  <p class="comment-user">When you finish the show you'll never be the same..I guarantee you</p>
+                </div>
+                <div class="rating-date">
+                  <span class="user-rating">10/10</span>
+                  <span class="date">12 Dec 2021</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="user-details">
+                  <img src="img/itachi.jpg" alt="">
+                  <span class="user-name">Uchiha itachi</span>
+                  <p class="comment-user">When you finish the show you'll never be the same..I guarantee you</p>
+                </div>
+                <div class="rating-date">
+                  <span class="user-rating">10/10</span>
+                  <span class="date">12 Dec 2021</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="user-details">
+                  <img src="img/itachi.jpg" alt="">
+                  <span class="user-name">Uchiha itachi</span>
+                  <p class="comment-user">When you finish the show you'll never be the same..I guarantee you</p>
+                </div>
+                <div class="rating-date">
+                  <span class="user-rating">10/10</span>
+                  <span class="date">12 Dec 2021</span>
+                </div>
+              </div>
+              <a href="#" class="more-comments">More
+                <svg xmlns="http://www.w3.org/2000/svg" width="9.478" height="9.52" viewBox="0 0 9.478 9.52">
+                  <g id="right-arrow" transform="translate(9.478 3.952) rotate(90)">
+                    <g id="Group_24" data-name="Group 24" transform="translate(0)">
+                      <path id="Path_10" data-name="Path 10" d="M5.417,4.369,1.2.151a.52.52,0,0,0-.733,0L.155.462a.519.519,0,0,0,0,.733L3.7,4.737.151,8.283a.52.52,0,0,0,0,.733l.311.31a.52.52,0,0,0,.733,0L5.417,5.105a.523.523,0,0,0,0-.736Z" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="right-arrow-2" data-name="right-arrow" transform="translate(9.478) rotate(90)">
+                    <g id="Group_24-2" data-name="Group 24">
+                      <path id="Path_10-2" data-name="Path 10" d="M5.417,4.369,1.2.151a.52.52,0,0,0-.733,0L.155.462a.519.519,0,0,0,0,.733L3.7,4.737.151,8.283a.52.52,0,0,0,0,.733l.311.31a.52.52,0,0,0,.733,0L5.417,5.105a.523.523,0,0,0,0-.736Z" fill="#fff"/>
+                    </g>
+                  </g>
+                </svg>                
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a class="go-top" onclick="topFunction()" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14.39" height="8.454" viewBox="0 0 14.39 8.454">
+          <g id="right-arrow" transform="translate(0 8.454) rotate(-90)">
+            <g id="Group_24" data-name="Group 24" transform="translate(0)">
+              <path id="Path_10" data-name="Path 10" d="M8.225,7.757l-6.4,6.4a.789.789,0,0,1-1.113,0l-.472-.471a.788.788,0,0,1,0-1.113L5.613,7.2.23,1.815A.789.789,0,0,1,.23.7L.7.23a.789.789,0,0,1,1.113,0l6.41,6.41a.794.794,0,0,1,0,1.117Z" fill="#fff"/>
+            </g>
+          </g>
+        </svg>  
+      </a>      
+      <div class="container">
+        <div class="lists">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Live</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Recently Released</a></li>
+            <li><a href="#">250 IMDB</a></li>
+            <li><a href="#">Advertise with us</a></li>
+          </ul>
+        </div>
+        <div class="filimo-info">
+          <img src="img/Logo.png" alt="">
+          <p class="filimo-desc">Filimo is the world’s leading <br> community for creators to share, <br> grow, and get hired.</p>
+          <div class="social-media">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20.311" height="20.314" viewBox="0 0 20.311 20.314">
+              <g id="instagram_1_" data-name="instagram (1)" transform="translate(0)">
+                <path id="Path_58" data-name="Path 58" d="M20.707,5.973a7.423,7.423,0,0,0-.472-2.464A5.2,5.2,0,0,0,17.263.536,7.442,7.442,0,0,0,14.8.064C13.711.012,13.366,0,10.608,0S7.5.012,6.421.06A7.425,7.425,0,0,0,3.957.532a4.957,4.957,0,0,0-1.8,1.175A5,5,0,0,0,.984,3.5,7.443,7.443,0,0,0,.512,5.969C.46,7.056.449,7.4.449,10.159s.012,3.1.06,4.187A7.423,7.423,0,0,0,.98,16.81a5.2,5.2,0,0,0,2.972,2.972,7.443,7.443,0,0,0,2.464.472c1.083.048,1.429.06,4.187.06s3.1-.012,4.187-.06a7.421,7.421,0,0,0,2.464-.472,5.2,5.2,0,0,0,2.972-2.972,7.448,7.448,0,0,0,.472-2.464c.048-1.083.06-1.429.06-4.187s0-3.1-.052-4.187Zm-1.829,8.294a5.568,5.568,0,0,1-.349,1.885A3.37,3.37,0,0,1,16.6,18.08a5.588,5.588,0,0,1-1.885.349c-1.071.048-1.393.06-4.1.06s-3.036-.012-4.1-.06a5.565,5.565,0,0,1-1.885-.349,3.126,3.126,0,0,1-1.167-.758A3.158,3.158,0,0,1,2.7,16.156a5.589,5.589,0,0,1-.349-1.885c-.048-1.071-.06-1.393-.06-4.1s.012-3.036.06-4.1A5.565,5.565,0,0,1,2.7,4.179a3.088,3.088,0,0,1,.762-1.167,3.153,3.153,0,0,1,1.167-.758A5.592,5.592,0,0,1,6.512,1.9c1.071-.048,1.393-.06,4.1-.06s3.036.012,4.1.06a5.568,5.568,0,0,1,1.885.349,3.124,3.124,0,0,1,1.167.758,3.158,3.158,0,0,1,.758,1.167,5.591,5.591,0,0,1,.349,1.885c.048,1.071.06,1.393.06,4.1s-.012,3.028-.06,4.1Zm0,0" transform="translate(-0.449 0)" fill="#b7b7b7"/>
+                <path id="Path_59" data-name="Path 59" d="M130.168,124.5a5.219,5.219,0,1,0,5.219,5.218A5.22,5.22,0,0,0,130.168,124.5Zm0,8.6a3.385,3.385,0,1,1,3.385-3.385A3.386,3.386,0,0,1,130.168,133.1Zm0,0" transform="translate(-120.008 -119.559)" fill="#b7b7b7"/>
+                <path id="Path_60" data-name="Path 60" d="M364.886,89.82a1.218,1.218,0,1,1-1.218-1.218A1.218,1.218,0,0,1,364.886,89.82Zm0,0" transform="translate(-348.084 -85.086)" fill="#b7b7b7"/>
+              </g>
+            </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28.231" viewBox="0 0 28 28.231">
+                <image id="_4photoshop-Soroush-vector-logo-لوگو-پیام-رسان-سروش" data-name="4photoshop-Soroush-vector-logo-لوگو-پیام-رسان-سروش" width="28" height="28.231" xlink:href="data:image/png;base64,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"/>
+              </svg>                
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22.111" height="18.707" viewBox="0 0 22.111 18.707">
+                <path id="telegram" d="M21.769.512A1.435,1.435,0,0,0,20.63,0a2.235,2.235,0,0,0-.8.158L1.119,7.3C.125,7.682-.008,8.251,0,8.556s.174.866,1.188,1.188l.018.005,3.882,1.111,2.1,6a1.812,1.812,0,0,0,1.677,1.327,1.985,1.985,0,0,0,1.342-.572l2.4-2.211,3.483,2.8h0l.033.027.009.007a2.011,2.011,0,0,0,1.223.459h0a1.716,1.716,0,0,0,1.636-1.521L22.06,2.044A1.809,1.809,0,0,0,21.769.512ZM6.387,10.65l7.49-3.826L9.213,11.779a.647.647,0,0,0-.157.289l-.9,3.643ZM9.33,16.667c-.031.029-.062.054-.093.077l.834-3.379,1.518,1.222ZM20.791,1.786,17.724,16.929c-.03.145-.124.482-.366.482a.755.755,0,0,1-.424-.184L12.987,14.05h0l-2.348-1.891,6.745-7.167a.648.648,0,0,0-.766-1.021L5.522,9.637,1.587,8.511,20.3,1.369A.95.95,0,0,1,20.63,1.3c.04,0,.11,0,.136.037a.618.618,0,0,1,.024.454Zm0,0" transform="translate(0)" fill="#b7b7b7"/>
+              </svg>                
+            </a>
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+        <a href="https://www.facebook.com/profile.php?id=100055856484013">جميع الحقوق محفوظة لمحمد أشرف </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.min.js"></script>
+<script>
+$('.episodes .owl-carousel').owlCarousel({
+  loop:true,
+    navText: [`<svg onclick="eN()" xmlns="http://www.w3.org/2000/svg" width="8.454" height="14.39" viewBox="0 0 8.454 14.39">
+  <g id="right-arrow" transform="translate(0 0)">
+    <g id="Group_24" data-name="Group 24" transform="translate(0 0)">
+      <path id="Path_10" data-name="Path 10" d="M101.708,6.634l6.4-6.4a.789.789,0,0,1,1.113,0L109.7.7a.788.788,0,0,1,0,1.113l-5.377,5.378,5.383,5.383a.789.789,0,0,1,0,1.113l-.472.471a.789.789,0,0,1-1.113,0l-6.41-6.41a.794.794,0,0,1,0-1.117Z" transform="translate(-101.478 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
+`, `<svg onclick="eN()" xmlns="http://www.w3.org/2000/svg" width="8.454" height="14.39" viewBox="0 0 8.454 14.39">
+  <g id="Group_24" data-name="Group 24" transform="translate(0)">
+    <path id="Path_10" data-name="Path 10" d="M109.7,6.634,103.3.23a.789.789,0,0,0-1.113,0L101.714.7a.788.788,0,0,0,0,1.113l5.378,5.378-5.383,5.383a.789.789,0,0,0,0,1.113l.472.471a.789.789,0,0,0,1.113,0l6.41-6.41a.794.794,0,0,0,0-1.117Z" transform="translate(-101.478 0)" fill="#fff"/>
+  </g>
+</svg>
+`],
+    nav:true,
+    margin:15,
+    autoplay: false,
+    dots: true,
+    items:5,
+    responsive:{
+        0:{
+            items:2
+        },
+        480:{
+            items:3
+        },
+        1200:{
+            items:5,
+        }
+    }
+})
+$('.more-like .owl-carousel').owlCarousel({
+  loop:true,
+    navText: [`<svg onclick="eN()" xmlns="http://www.w3.org/2000/svg" width="8.454" height="14.39" viewBox="0 0 8.454 14.39">
+  <g id="right-arrow" transform="translate(0 0)">
+    <g id="Group_24" data-name="Group 24" transform="translate(0 0)">
+      <path id="Path_10" data-name="Path 10" d="M101.708,6.634l6.4-6.4a.789.789,0,0,1,1.113,0L109.7.7a.788.788,0,0,1,0,1.113l-5.377,5.378,5.383,5.383a.789.789,0,0,1,0,1.113l-.472.471a.789.789,0,0,1-1.113,0l-6.41-6.41a.794.794,0,0,1,0-1.117Z" transform="translate(-101.478 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
+`, `<svg onclick="eN()" xmlns="http://www.w3.org/2000/svg" width="8.454" height="14.39" viewBox="0 0 8.454 14.39">
+  <g id="Group_24" data-name="Group 24" transform="translate(0)">
+    <path id="Path_10" data-name="Path 10" d="M109.7,6.634,103.3.23a.789.789,0,0,0-1.113,0L101.714.7a.788.788,0,0,0,0,1.113l5.378,5.378-5.383,5.383a.789.789,0,0,0,0,1.113l.472.471a.789.789,0,0,0,1.113,0l6.41-6.41a.794.794,0,0,0,0-1.117Z" transform="translate(-101.478 0)" fill="#fff"/>
+  </g>
+</svg>
+`],
+    nav:true,
+    margin:15,
+    autoplay: false,
+    dots: true,
+    items:5,
+    responsive:{
+        0:{
+            items:2
+        },
+        480:{
+            items:3
+        },
+        1200:{
+            items:5,
+        }
+    }
+})
+</script>
+</body>
+</html>
